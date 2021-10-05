@@ -1,25 +1,26 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-header{
-width: 100%;
+header {
+    width: 100%;
     height: auto;
-    background-color: rgba(79, 184, 107,0.3);
+    background-color: rgba(79, 184, 107, 0.3);
 }
-header img{
+
+header img {
     width: 5%;
     margin-right: 90px;
 }
 
-header div{
+header div {
     width: 100%;
     margin: 40px 0px 0px 40px;
     display: inline-flex;
 }
 
-header h1{
+header h1 {
     margin-top: 30px;
     font-size: 70px;
     color: #218f5f;
@@ -35,7 +36,7 @@ header h1{
 
 }
 
-.menu-list ul{
+.menu-list ul {
     text-align: right;
     margin-right: 10%;
 }
@@ -63,5 +64,45 @@ header h1{
     color: rgba(153, 153, 153, 1);
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
+}
+
+footer {
+    background-color: rgba(79, 184, 107, 0.3);
+    display: inline-block;
+    width: 100%;
+}
+
+#address {
+    text-align: left;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    width: 32.5%;
+}
+
+#menu {
+    padding: 0px 0px 0px 0px;
+    display: inline-block;
+    width: 32.5%;
+    margin: 0 auto;
+}
+
+footer li {
+    margin: 0px 0px 0px 0px;
+    list-style-type: none;
+}
+
+footer li a {
+    font-size: 115%;
+    text-decoration: none;
+    color: #218f5f;
+    font-family: "Open Sans", sans-serif;
+}
+
+#subscribe {
+    text-align: right;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    width: 35%;
+    float: right;
 }
 
