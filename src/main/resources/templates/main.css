@@ -10,16 +10,58 @@ width: 100%;
 }
 header img{
     width: 5%;
+    margin-right: 90px;
 }
 
 header div{
     width: 100%;
-}
-
-header nav{
-    width: 100%;
+    margin: 40px 0px 0px 40px;
+    display: inline-flex;
 }
 
 header h1{
+    margin-top: 30px;
+    font-size: 70px;
+    color: #218f5f;
+}
+
+
+.menu-list {
+    display: block;
+    padding-bottom: 20px;
+    list-style-type: none;
+    text-align: center;
+    white-space: nowrap;
 
 }
+
+.menu-list ul{
+    text-align: right;
+    margin-right: 10%;
+}
+
+.menu-list-item {
+    display: inline-block;
+    min-width: 150px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+    letter-spacing: 2px;
+    text-align: center;
+    line-height: 50px;
+    color: #000;
+}
+
+.menu-list-item a {
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    color: #218f5f;
+}
+
+.menu-list-item:hover a {
+    text-decoration: none;
+    color: rgba(153, 153, 153, 1);
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
