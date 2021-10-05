@@ -8,3 +8,8 @@ Webbaseret prototype
 - planlæg kvalitetssikring af brugergrænsefladedesign --> Software Testing Technique
 
 Præsentation den 14 oktober  15 min.
+
+Contributors:
+[KamilleNikolajsen](https://github.com/KamilleNikolajsen)
+[Rasmus-Kibshede](https://github.com/Rasmus-Kibshede)
+[MichalaNybroe](https://github.com/MichalaNybroe)
