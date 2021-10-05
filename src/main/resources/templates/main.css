@@ -1,1 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 
+header{
+width: 100%;
+    height: auto;
+    background-color: rgba(79, 184, 107,0.3);
+}
+header img{
+    width: 5%;
+}
+
+header div{
+    width: 100%;
+}
+
+header nav{
+    width: 100%;
+}
+
+header h1{
+    
+}
