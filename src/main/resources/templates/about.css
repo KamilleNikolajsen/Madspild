@@ -7,13 +7,16 @@ h1 {
     margin-top: 5%;
     color: #218f5f;
 }
-
-#mainfoto {
+#mid img{
     margin-top: 5%;
 }
 
-#info {
+#information {
     margin-top: 5%;
+}
+
+.brødtekst {
+    display: inline-block;
 }
 
 #billeder {
@@ -51,7 +54,6 @@ h2 {
 }
 
 .person {
-    display: inline-block;
     margin-top: 50px;
 }
 
