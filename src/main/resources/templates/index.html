@@ -1,44 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
 
 <head>
-    <meta charset="UTF-8">
     <title>Danmark mod Madspild</title>
-    <link rel="stylesheet" href="main.css">
+    <th:block th:include="fragments/general :: headerfiles"></th:block>
 </head>
 <body>
 <div id="body">
     <div id="wrapper">
-        <header>
-            <div>
-
-                <img src="https://cdn.discordapp.com/attachments/840203393745420348/894880335052025876/unknown.png">
-                <h1>Danmark mod Madspild</h1>
-
-            </div>
-            <nav class="menu-list">
-                <ul>
-
-                    <li class="menu-list-item"><a href="menupunkt">Hjem</a></li>
-
-
-                    <li class="menu-list-item"><a href="menupunkt">Om</a></li>
-
-
-                    <li class="menu-list-item"><a href="menupunkt">Ideer</a></li>
-
-
-                    <li class="menu-list-item"><a href="menupunkt">Donation</a></li>
-
-
-                    <li class="menu-list-item"><a href="menupunkt">Kontakt</a></li>
-
-
-                    <li class="menu-list-item"><a href="menupunkt">Søgefelt</a></li>
-
-                </ul>
-            </nav>
-        </header>
+        <header th:insert="fragments/general :: header"></header>
 
         <div id="content">
             <section>
@@ -64,54 +34,7 @@
 
     <a href="mail to:madsspild.dk">Kontakt Danmark mod madspild</a>
 
-    <footer>
-        <div id="address">
-            <p>Adresse: Meinungsgade 8</p>
-        </div>
-
-        <div id="menu">
-            <li>
-                <a href="menupunkt">
-                    Hjem
-                </a>
-            </li>
-
-
-            <li>
-                <a href="menupunkt">
-                    Om
-                </a>
-            </li>
-
-            <li>
-                <a href="menupunkt">
-                    Ideer
-                </a>
-            </li>
-
-
-            <li>
-                <a href="menupunkt">
-                    Donation
-                </a>
-            </li>
-
-
-            <li>
-                <a href="menupunkt">
-                    Kontakt
-                </a>
-            </li>
-        </div>
-        <div id="subscribe">
-            <p>Enter email for subscription:</p>
-            <form action="/" name="Email">
-                <input type="text">
-                <input type="submit" value="Subscribe" id="button">
-            </form>
-
-        </div>
-    </footer>
+    <footer th:insert="fragments/general :: footer"></footer>
 </div>
 </div>
 </body>
