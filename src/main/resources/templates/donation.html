@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
 <head>
-    <meta charset="UTF-8">
     <title>Donation</title>
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="donation.css">
+    <th:block th:include="fragments/general :: headerfiles"></th:block>
+    <link rel="stylesheet" th:href="@{/donation.css}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
@@ -12,36 +11,7 @@
 <body>
 <div id="body">
     <div id="wrapper">
-        <header>
-            <div>
-
-                <img src="https://cdn.discordapp.com/attachments/840203393745420348/894880335052025876/unknown.png">
-                <h1>Danmark mod Madspild</h1>
-
-            </div>
-            <nav class="menu-list">
-                <ul>
-
-                    <li class="menu-list-item"><a href="menupunkt">Hjem</a></li>
-
-
-                    <li class="menu-list-item"><a href="menupunkt">Om</a></li>
-
-
-                    <li class="menu-list-item"><a href="menupunkt">Ideer</a></li>
-
-
-                    <li class="menu-list-item"><a href="menupunkt">Donation</a></li>
-
-
-                    <li class="menu-list-item"><a href="menupunkt">Kontakt</a></li>
-
-
-                    <li class="menu-list-item"><a href="menupunkt">Søgefelt</a></li>
-
-                </ul>
-            </nav>
-        </header>
+        <header th:insert="fragments/general :: header"></header>
 
         <div id="content">
             <h2>Donation</h2>
@@ -59,74 +29,22 @@
                 </tr>
             </table>
 
-            <div>
+            <div id="donation_idears">
                 <h3>Tekst her!</h3>
 
-                <img src="madspild.png"/>
-                <img src="madspild.png"/>
-                <img src="madspild.png"/>
+                <img src="../static/madspild.png"/>
+                <img src="../static/madspild.png"/>
+                <img src="../static/madspild.png"/>
             </div>
 
             <p>Du kan finde ideer <a href="ideas.html">her</a></p>
 
-
-
-
-
-
-            </di>
-
         </div>
 
-        <footer>
-            <div id="address">
-                <p>Adresse: Meinungsgade 8</p>
-            </div>
-
-            <div id="menu">
-                <li>
-                    <a href="menupunkt">
-                        Hjem
-                    </a>
-                </li>
-
-
-                <li>
-                    <a href="menupunkt">
-                        Om
-                    </a>
-                </li>
-
-                <li>
-                    <a href="menupunkt">
-                        Ideer
-                    </a>
-                </li>
-
-
-                <li>
-                    <a href="menupunkt">
-                        Donation
-                    </a>
-                </li>
-
-
-                <li>
-                    <a href="menupunkt">
-                        Kontakt
-                    </a>
-                </li>
-            </div>
-            <div id="subscribe">
-                <p>Enter email for subscription:</p>
-                <form action="/" name="Email">
-                    <input type="text">
-                    <input type="submit" value="Subscribe" id="button">
-                </form>
-
-            </div>
-        </footer>
     </div>
+
+    <footer th:insert="fragments/general :: footer"></footer>
+</div>
 </div>
 </body>
 </html>

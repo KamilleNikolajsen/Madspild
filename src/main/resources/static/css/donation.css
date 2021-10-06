@@ -26,12 +26,12 @@ table td {
     font-size: 17px;
 }
 
-h3 {
+#donation_idears h3 {
     text-align: center;
     margin-bottom: 50px;
 }
 
-img {
+#donation_idears img {
     width: 20%;
     margin-left: 10%;
 }
