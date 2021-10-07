@@ -21,15 +21,17 @@ h3{
     display: inline-block;
     float: left;
     padding-left: 5%;
-    padding-bottom: 3%;
+    padding-bottom: 1%;
 }
 
 #undgå_liste ul{
     width: 100%;
 }
+
 #undgå_liste li{
-    padding: 2%;
+    padding: 1%;
 }
+
 
 #fælles{
     width: 100%;
@@ -40,37 +42,11 @@ h3{
     display: inline-block;
 }
 
-#inspiration_liste img {
-    margin: 5% 5% 5% 5%;
-    width: 20%;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-#inspiration_liste a{
-    text-decoration: none;
-    text-align: center;
-    padding: 10px 20px;
-}
 #inspiration_liste li{
     width: 25%;
     list-style-type: none;
 }
 
-/*
-#inspiration_liste1 div{
-    width: 24%;
-}
-#inspiration_liste2 div{
-    width: 24%;
-}
-#inspiration_liste3 div{
-    width: 24%;
-}
-#inspiration_liste4 div{
-    width: 24%;
-}
-
- */
 table{
     width: 100%;
     padding-left: 2%;
@@ -91,7 +67,7 @@ tr{
 #doner{
     float: right;
     width: 40%;
-    padding: 0% 5% 3% 5%;
+    padding: 0% 5% 1% 5%;
 }
 #doner p{
     line-height: 0.8cm;
