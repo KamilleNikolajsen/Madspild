@@ -81,30 +81,6 @@ h4 {
     color: #218f5f;
 }
 
-#people {
-    text-align: center;
-    width: 100%;
-    margin-bottom: 50px;
-}
+#people{
 
-.person {
-    margin-top: 50px;
-    display: inline-block;
-    width: 25%;
-    height: 400px;
-    margin-right: 5%;
-}
-
-.person h3 {
-    color: #218f5f;
-}
-
-.person p {
-    margin-top: 20px;
-}
-
-.person img {
-    margin-top: 20px;
-    width: 5%;
-    margin-right: 50px;
 }

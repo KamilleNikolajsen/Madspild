@@ -18,15 +18,15 @@
 
         <div id="mid">
             <div id="first">
-                <img src="../static/madspild.png" height="358" width="640"/>
+                <img th:src="@{/images/madspild.png}"/>
 
                 <p>Vi er en organisation, der ønsker at samle Danmark mod madspild. Igennem denne hjemmeside håber
                     vi at gøre inspiration og information om madspild i Danmark let tilgængeligt for alle.</p>
             </div>
 
             <div id="second">
-                <img src="../static/madspild.png" alt="Billede er ikke at finde" height="358" width="640"/>
-                
+                <img th:src="@{/images/madspild.png}"/>
+
                 <p>Dette gør vi bl.a. ved at tage ud på skoler oog andre fællesskaber, hvor vi forsøger at videregive
                     information
                     om vigtigheden af at reducere madspild og samtidig oplysning om hvor meget madspild der sker hver
@@ -40,34 +40,35 @@
 
         <div id="vi">
             <h4>Hvem er vi?</h4>
-            <div id="people">
-                <div class="person">
-                    <h3>Birgitte Hansen</h3>
-                    <p>Birgitte er CEO og uddannet pædagog. Hun bidrager til kurser og tager aktivt ud på forskellige
+
+            <table id="people">
+                <tr>
+                    <th>Birgitte Hansen</th>
+                    <th>John Doe</th>
+                    <th>Jane Doe</th>
+                </tr>
+                <tr>
+                    <td>Birgitte er CEO og uddannet pædagog. Hun bidrager til kurser og tager aktivt ud på forskellige
                         uddannelsesinstitutioner, hvor hun videregiver viden til den nye generation og desuden hvordan
-                        kantiner mm. kan nedbrigne madspild.</p>
-                    <img src="![](../static/profile.jpg)"
-                         alt="Billede er ikke at finde"/>
-                </div>
-
-                <div class="person">
-                    <h3>John Doe</h3>
-                    <p>John er CTO, hna har blik for hvordan teknologien kan hjælpe med at dele informationer og
-                        nytænke løsnigner for madspild</p>
-                    <img src="![](../static/profile.jpg)" alt="Billede er ikke at finde"/>
-                </div>
-
-                <div class="person">
-                    <h3>Jane Doe</h3>
-                    <p>Jane er CFO hun formår at se de økonomiske muligheder i reducering af Madspid. Desuden har hun
-                        en fod inde med virksomhederne der engagere sig i sagen!</p>
-                    <img src="![](../static/profile.jpg)"
-                         alt="Billede er ikke at finde"/>
-                </div>
-            </div>
+                        kantiner mm. kan nedbrigne madspild.
+                    </td>
+                    <td>John er CTO, hna har blik for hvordan teknologien kan hjælpe med at dele informationer og
+                        nytænke løsnigner for madspild
+                    </td>
+                    <td>Jane er CFO hun formår at se de økonomiske muligheder i reducering af Madspid. Desuden har hun
+                        en fod inde med virksomhederne der engagere sig i sagen!
+                    </td>
+                </tr>
+                <tr>
+                    <td><img th:src="@{/images/profile.jpg}"/></td>
+                    <td><img th:src="@{/images/profile.jpg}"/></td>
+                    <td><img th:src="@{/images/profile.jpg}"/></td>
+                </tr>
+            </table>
         </div>
-        <footer th:insert="fragments/general :: footer"></footer>
     </div>
+    <footer th:insert="fragments/general :: footer"></footer>
+</div>
 </div>
 </body>
 </html>
