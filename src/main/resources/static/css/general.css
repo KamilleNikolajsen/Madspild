@@ -59,12 +59,17 @@ header li a{
     padding: 10px 0px;
     text-decoration: none;
     color: #218f5f;
+    font-size: 25px;
 }
 
 header li a:hover{
     color: white;
     border-radius: 6px;
     background-color: #218f5f;
+}
+
+header input {
+    font-size: 18px;
 }
 /*---------------------------------------------------------- Header end --------------------------------------*/
 
@@ -78,20 +83,27 @@ footer {
 }
 
 #address {
-    width: 33%;
-    float: left;
-    margin-top: 3%;
+    width: 20%;
+    float: right;
+    margin-top: 5%;
+    color: #218f5f;
 }
 #address p {
     font-size: 150%;
     color: #218f5f;
-    font-family: "Open Sans", sans-serif;
     text-align: center;
 }
 
+#button {
+    font-size: 90%;
+    color: #218f5f;
+}
+
 #menu {
+    padding-top: 1%;
     float: left;
     width: 33%;
+    padding-bottom: 1%;
 }
 
 footer li {
@@ -104,7 +116,6 @@ footer li a {
     font-size: 115%;
     text-decoration: none;
     color: #218f5f;
-    font-family: "Open Sans", sans-serif;
     text-align: center;
     display: block;
 }
@@ -119,13 +130,7 @@ footer li a {
 #subscribe p {
     font-size: 120%;
     color: #218f5f;
-    margin-bottom: 15px;
-    font-family: "Open Sans", sans-serif;
-}
-
-#subscribe p:hover {
-    cursor: pointer;
-    color: rgb(13, 79, 30);
+    padding-bottom: 5px;
 }
 
 footer a:hover {
