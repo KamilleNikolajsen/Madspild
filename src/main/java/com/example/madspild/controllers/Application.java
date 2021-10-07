@@ -16,9 +16,9 @@ public class Application {
         return "about";
     }
 
-    @GetMapping("/ideer")
+    @GetMapping("/inspiration")
     public String ideas() {
-        return "ideas";
+        return "inspiration";
     }
 
     @GetMapping("/donation")
