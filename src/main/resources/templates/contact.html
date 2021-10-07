@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <title>Kontakt</title>
+    <link rel="stylesheet" th:href="@{/css/contact.css}">
+    <th:block th:include="fragments/general :: headerfiles"></th:block>
+</head>
+<body>
+<div id="body">
+    <div id="wrapper">
+        <header th:insert="fragments/general :: header"></header>
+        <h1>Kontakt os</h1>
+        <div>
+            <p>
+            <p>Telefon: 22883366</p>
+            <a href="tel: 22884466">22884466</a>
+            </p>
+            <p>
+            <p>E-mail: madspild@service.dk</p>
+               <a href="mailto:madspild@service.dk">Send mail</a>
+            </p>
+            <p>Adresse: Meinungsgade 8, 2200 København N</p>
+        </div>
+        <div>
+            <h2>
+                Skriv til os
+            </h2>
+            <p>Hvis du har noget på hjerte, spørgsmål eller andet skal du være velkommen til at skrive til os via nedenstående.</p>
+            <form action="/" name="message">
+                <input type="text">
+                <input type="submit" value="Send besked!">
+            </form>
+        </div>
+
+
+        <footer th:insert="fragments/general :: footer"></footer>
+    </div>
+</div>
+</body>
+</html>
