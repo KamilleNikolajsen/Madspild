@@ -6,43 +6,32 @@
 }
 
 #mid {
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 100%;
     display: inline-block;
 }
 
-#headers {
-    margin-top: 5%;
-}
-
-#headers h5 {
+#mid h5 {
     color: #218f5f;
     font-size: 200%;
-    display: inline-block;
+    text-align: center;
 }
 
-#h5-1 {
-    margin-left: 10%;
+#mid p{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
 }
 
-#h5-2 {
-    float: right;
-    margin-right: 38%;
-}
-
-#first {
-    width: 35%;
+#mid div{
     float: left;
-}
-
-#second {
-    width: 35%;
-    float: right;
-    margin-right: 10%;
+    margin-top: 5%;
+    width: 50%;
 }
 
 #mid img {
-    margin-top: 5%;
+    width: 100px;
+    display: block;
+    margin: 20px auto;
 }
 
 #information {
@@ -82,5 +71,16 @@ h4 {
 }
 
 #people{
+    width: 100%;
+}
 
+#people td{
+    width: 30%;
+    padding: 5px 10px;
+}
+
+#people img{
+    width: 100px;
+    display: block;
+    margin: 0 auto;
 }
