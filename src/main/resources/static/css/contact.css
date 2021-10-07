@@ -27,7 +27,7 @@ a {
 }
 
 h2 {
-    margin-top: 5%;
+    margin-top: 8%;
     text-align: center;
     color: #218f5f;
     font-size: 200%;
@@ -36,10 +36,15 @@ h2 {
 #write p {
     text-align: center;
     font-size: 120%;
+    margin-top: 1%;
 }
 
-body form {
+#contactBody form {
     text-align: center;
-    font-size: 120%;
     margin-bottom: 2%;
+    padding-top: 1%;
+}
+
+input #button{
+    font-size: 120%;
 }
