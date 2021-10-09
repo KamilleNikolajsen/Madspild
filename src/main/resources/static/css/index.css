@@ -1,8 +1,37 @@
- s1{
-    width: 49%;
 
+#content{
+    width: 100%;
+}
+h2{
+    text-align: center;
+    color: darkgreen;
+    font-size: 250%;
+    padding-bottom: 3%;
+    margin-top: 4%;
+}
+#section1{
+    width: 35%;
+    float: left;
+    margin-left: 10%;
+    margin-right: 5%;
 }
 
-s2{
-    width: 49%;
+#section2{
+    width: 35%;
+    float: left;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+p{
+    margin: 5% 0% 5% 0%;
+}
+
+div video{
+    margin-bottom: 5%;
+    padding-left: 12%;
+}
+
+div img{
+    padding-left: 15%;
 }

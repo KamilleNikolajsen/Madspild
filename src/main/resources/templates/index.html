@@ -4,6 +4,7 @@
 <head>
     <title>Danmark mod Madspild</title>
     <th:block th:include="fragments/general :: headerfiles"></th:block>
+    <link rel="stylesheet" th:href="@{css/index.css}">
 </head>
 <body>
 <div id="body">
@@ -11,9 +12,9 @@
         <header th:insert="fragments/general :: header"></header>
 
         <div id="content">
-            <section id="s1">
+            <section>
                 <h2>Danmark mod Madspild Information:</h2>
-                <div>
+                <div id="section1">
                     <p>
                         Definition af madspild:
                         Madaffald er alt affald, der stammer fra mad. Madaffald kan opdeles i to:
@@ -30,8 +31,8 @@
                 </div>
             </section>
 
-            <section id="s2">
-                <div>
+            <section>
+                <div id="section2">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3ntzGWjAxSG4qP40XYooeai_guykKZdaXOw&usqp=CAU" id="">
                     <p>  Samlet smider vi i Danmark hvert år over 700.000 ton mad ud, som kunne være spist.
                         Husholdningernes madspild udgør 260.000 ton pr. år. I servicesektoren er der et årligt
