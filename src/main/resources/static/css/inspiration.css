@@ -1,14 +1,16 @@
-#overskrift{
+#overskrift {
     width: 100%;
 }
-h2{
+
+h2 {
     font-size: 250%;
     padding-bottom: 3%;
     margin-top: 4%;
     color: darkgreen;
     text-align: center;
 }
-h3{
+
+h3 {
     font-size: 180%;
     padding-bottom: 25px;
     margin-top: 20px;
@@ -16,7 +18,7 @@ h3{
     text-align: center;
 }
 
-#undgå{
+#undgå {
     width: 45%;
     display: inline-block;
     float: left;
@@ -24,51 +26,54 @@ h3{
     padding-bottom: 1%;
 }
 
-#undgå_liste ul{
+#undgå_liste ul {
     width: 100%;
 }
 
-#undgå_liste li{
+#undgå_liste li {
     padding: 1%;
 }
 
 
-#fælles{
+#fælles {
     width: 100%;
 }
 
-#inspiration{
+#inspiration {
     width: 100%;
     display: inline-block;
 }
 
-#inspiration_liste li{
+#inspiration_liste li {
     width: 25%;
     list-style-type: none;
 }
 
-table{
+#img_table {
     width: 100%;
     padding-left: 2%;
 }
-tr{
+
+#img_table tr {
 
     width: 100%;
 }
-.img img{
+
+.img img {
     width: 90%;
 }
 
-.link{
+.link {
     padding-bottom: 2%;
     text-align: center;
 }
 
-#doner{
+#doner {
     float: right;
     width: 40%;
     padding: 0% 5% 1% 5%;
 }
-#doner p{
+
+#doner p {
     line-height: 0.8cm;
 }
