@@ -3,15 +3,54 @@
 <head>
     <title>Kurser</title>
     <th:block th:include="fragments/general :: headerfiles"></th:block>
-    <link rel="stylesheet" th:href="@{css/contact.css}">
+    <link rel="stylesheet" th:href="@{css/course.css}">
 </head>
 <body>
 <div id="body">
     <div id="wrapper">
         <header th:insert="fragments/general :: header"></header>
         <div id="content">
+            <h2>Kurser</h2>
+            <div id="indhold">
+
+                <div id="diashow" style="max-width: 500px">
+                    <img th:src="@{/images/Madspild123.png}" style="width: 100%" class="mySlides"/>
+                    <img th:src="@{/images/madspild.png}" style="width: 100%" class="mySlides"/>
+                </div>
+                <script>
+                    var slideIndex = 0;
+                    carousel();
+
+                    function carousel() {
+                        var i;
+                        var x = document.getElementsByClassName("mySlides");
+                        for (i = 0; i < x.length; i++) {
+                            x[i].style.display = "none";
+                        }
+                        slideIndex++;
+                        if (slideIndex > x.length) {
+                            slideIndex = 1
+                        }
+                        x[slideIndex - 1].style.display = "block";
+                        setTimeout(carousel, 2000);
+                    }
+                </script>
 
 
+                <div id="kurser">
+                    <h4>Madspild i organisationens kantine</h4>
+                    <img th:src="@{/images/madspild.png}" alt="Desværre er dette kursusbillede ikke tilgængeligt."/>
+                    <p>Dette kursus underviser i...</p>
+
+                    <h4>Madspild i det private</h4>
+                    <img th:src="@{/images/madspild.png}" alt="Desværre er dette kursusbillede ikke tilgængeligt."/>
+                    <p>Dette kursus underviser i...</p>
+
+                    <h4>Madspild - når mange står sammen!</h4>
+                    <img th:src="@{/images/madspild.png}" alt="Desværre er dette kursusbillede ikke tilgængeligt."/>
+                    <p>Dette kursus underviser i...</p>
+                </div>
+            </div>
         </div>
         <footer th:insert="fragments/general :: footer"></footer>
     </div>
