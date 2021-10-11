@@ -2,28 +2,20 @@
     width: 100%;
 }
 
-h2 {
-    font-size: 250%;
-    padding-bottom: 3%;
-    margin-top: 4%;
-    color: #218f5f;
-    text-align: center;
+#fælles {
+    width: 100%;
 }
 
-h3 {
-    font-size: 180%;
-    padding-bottom: 25px;
-    margin-top: 20px;
-    color: #218f5f;
-    text-align: center;
-}
-
-#undgå {
-    width: 37%;
+#fælles div{
+    width: 44%;
     display: inline-block;
     float: left;
-    padding-left: 10%;
-    padding-bottom: 1%;
+    margin: 5% 3%;
+}
+
+
+#doner p {
+    line-height: 0.8cm;
 }
 
 #undgå_liste ul {
@@ -32,11 +24,6 @@ h3 {
 
 #undgå_liste li {
     padding: 1%;
-}
-
-
-#fælles {
-    width: 100%;
 }
 
 #inspiration {
@@ -67,18 +54,4 @@ h3 {
 .link {
     padding-bottom: 2%;
     text-align: center;
-}
-
-#doner {
-    float: right;
-    width: 37%;
-    padding: 0% 10% 1% 5%;
-}
-
-#doner p {
-    line-height: 0.8cm;
-}
-
-#content a {
-    color: #218f5f;
 }
