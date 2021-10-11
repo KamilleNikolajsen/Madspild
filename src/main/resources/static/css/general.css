@@ -15,16 +15,22 @@ h1{
     color: #218f5f;
     text-align: center;
 }
+
 h2 {
     font-size: 35px;
     color: #218f5f;
     text-align: center;
+    margin-bottom: 4%;
 }
 
 h3{
     font-size: 30px;
     color: #218f5f;
     text-align: center;
+}
+
+a {
+    color: #218f5f;
 }
 
 /*---------------------------------------------------------- Header start --------------------------------------*/
