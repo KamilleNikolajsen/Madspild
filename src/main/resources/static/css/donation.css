@@ -24,10 +24,30 @@ table td {
 
 #donation_idears h3 {
     text-align: center;
+    margin-top: 100px;
     margin-bottom: 50px;
-margin-top: 50px;
+    font-size: 25px;
+    color: #218f5f;
 }
+
 #donation_idears img {
     width: 20%;
     margin-left: 10%;
+    margin-bottom: 20px;
+}
+
+#content {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20px;
+}
+
+#donation_idears p {
+    display: inline-block;
+    margin-left: 12%;
+    width: 20%;
+}
+
+#donation_idears a {
+    color: #218f5f;
 }
