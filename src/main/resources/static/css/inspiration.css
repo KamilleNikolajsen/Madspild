@@ -54,3 +54,8 @@
     padding-bottom: 2%;
     text-align: center;
 }
+
+#content h3 {
+    margin-bottom: 2%;
+    margin-top: 2%;
+}

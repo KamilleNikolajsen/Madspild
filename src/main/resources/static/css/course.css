@@ -1,0 +1,29 @@
+#indhold {
+    display: inline-block;
+    width: 100%;
+}
+
+#diashow {
+    float: right;
+    width: 40%;
+}
+
+#kurser {
+    float: left;
+}
+
+#kurser img {
+    height: 180px;
+    width: 325px;
+    margin-bottom: 5%;
+}
+
+#kurser p {
+    margin-bottom: 5%;
+}
+
+#kurser h4 {
+    color: #218f5f;
+    font-size: 25px;
+    margin-bottom: 5%;
+}
