@@ -16,6 +16,11 @@ public class Application {
         return "about";
     }
 
+    @GetMapping("/kurser")
+    public String course() {
+        return "course";
+    }
+
     @GetMapping("/inspiration")
     public String ideas() {
         return "inspiration";
