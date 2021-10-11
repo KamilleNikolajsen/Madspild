@@ -6,7 +6,7 @@ h2 {
     font-size: 250%;
     padding-bottom: 3%;
     margin-top: 4%;
-    color: darkgreen;
+    color: #218f5f;
     text-align: center;
 }
 
@@ -14,7 +14,7 @@ h3 {
     font-size: 180%;
     padding-bottom: 25px;
     margin-top: 20px;
-    color: darkgreen;
+    color: #218f5f;
     text-align: center;
 }
 
@@ -77,4 +77,8 @@ h3 {
 
 #doner p {
     line-height: 0.8cm;
+}
+
+#content a {
+    color: #218f5f;
 }

@@ -61,3 +61,7 @@ h4 {
     display: block;
     margin: 0 auto;
 }
+
+#people th {
+    color: #218f5f;
+}

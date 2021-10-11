@@ -12,60 +12,66 @@
 <div id="body">
     <div id="wrapper">
         <header th:insert="fragments/general :: header"></header>
+        <div id="content">
+            <h1 id="titel">Om os</h1>
 
-        <h1 id="titel">Om os</h1>
+            <div id="mid">
+                <div>
+                    <h5>Hvad ønsker vi at opnå?</h5>
+                    <img th:src="@{/images/madspild.png}"/>
 
-        <div id="mid">
-            <div>
-                <h5>Hvad ønsker vi at opnå?</h5>
-                <img th:src="@{/images/madspild.png}"/>
+                    <p>Vi er en organisation, der ønsker at samle Danmark mod madspild. Igennem denne hjemmeside håber
+                        vi at gøre inspiration og information om madspild i Danmark let tilgængeligt for alle.</p>
+                </div>
 
-                <p>Vi er en organisation, der ønsker at samle Danmark mod madspild. Igennem denne hjemmeside håber
-                    vi at gøre inspiration og information om madspild i Danmark let tilgængeligt for alle.</p>
+                <div>
+                    <h5>Hvordan?</h5>
+                    <img th:src="@{/images/madspild.png}"/>
+
+                    <p>Dette gør vi bl.a. ved at tage ud på skoler oog andre fællesskaber, hvor vi forsøger at
+                        videregive
+                        information
+                        om vigtigheden af at reducere madspild og samtidig oplysning om hvor meget madspild der sker
+                        hver
+                        dag i Danmark.
+                        Hvert år kommer vi med nye ideer og tiltag som skal bidrage til en øgende viden i Danmark om
+                        madspild og forhåbenlig
+                        på sigt bidrage til en verden med minsket spild af mad.</p>
+                </div>
+
             </div>
 
-            <div>
-                <h5>Hvordan?</h5>
-                <img th:src="@{/images/madspild.png}"/>
+            <div id="vi">
+                <h4>Hvem er vi?</h4>
 
-                <p>Dette gør vi bl.a. ved at tage ud på skoler oog andre fællesskaber, hvor vi forsøger at videregive
-                    information
-                    om vigtigheden af at reducere madspild og samtidig oplysning om hvor meget madspild der sker hver
-                    dag i Danmark.
-                    Hvert år kommer vi med nye ideer og tiltag som skal bidrage til en øgende viden i Danmark om
-                    madspild og forhåbenlig
-                    på sigt bidrage til en verden med minsket spild af mad.</p>
+                <table id="people">
+                    <tr>
+                        <th>Birgitte Hansen</th>
+                        <th>John Doe</th>
+                        <th>Jane Doe</th>
+                    </tr>
+                    <tr>
+                        <td>Birgitte er CEO og uddannet pædagog. Hun bidrager til kurser og tager aktivt ud på
+                            forskellige
+                            uddannelsesinstitutioner, hvor hun videregiver viden til den nye generation og desuden
+                            hvordan
+                            kantiner mm. kan nedbrigne madspild.
+                        </td>
+                        <td>John er CTO, hna har blik for hvordan teknologien kan hjælpe med at dele informationer og
+                            nytænke løsnigner for madspild
+                        </td>
+                        <td>Jane er CFO hun formår at se de økonomiske muligheder i reducering af Madspid. Desuden har
+                            hun
+                            en fod inde med virksomhederne der engagere sig i sagen!
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><img th:src="@{/images/profile.jpg}"/></td>
+                        <td><img th:src="@{/images/profile.jpg}"/></td>
+                        <td><img th:src="@{/images/profile.jpg}"/></td>
+                    </tr>
+                </table>
             </div>
-
-        </div>
-
-        <div id="vi">
-            <h4>Hvem er vi?</h4>
-
-            <table id="people">
-                <tr>
-                    <th>Birgitte Hansen</th>
-                    <th>John Doe</th>
-                    <th>Jane Doe</th>
-                </tr>
-                <tr>
-                    <td>Birgitte er CEO og uddannet pædagog. Hun bidrager til kurser og tager aktivt ud på forskellige
-                        uddannelsesinstitutioner, hvor hun videregiver viden til den nye generation og desuden hvordan
-                        kantiner mm. kan nedbrigne madspild.
-                    </td>
-                    <td>John er CTO, hna har blik for hvordan teknologien kan hjælpe med at dele informationer og
-                        nytænke løsnigner for madspild
-                    </td>
-                    <td>Jane er CFO hun formår at se de økonomiske muligheder i reducering af Madspid. Desuden har hun
-                        en fod inde med virksomhederne der engagere sig i sagen!
-                    </td>
-                </tr>
-                <tr>
-                    <td><img th:src="@{/images/profile.jpg}"/></td>
-                    <td><img th:src="@{/images/profile.jpg}"/></td>
-                    <td><img th:src="@{/images/profile.jpg}"/></td>
-                </tr>
-            </table>
         </div>
     </div>
     <footer th:insert="fragments/general :: footer"></footer>
