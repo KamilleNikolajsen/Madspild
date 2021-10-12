@@ -38,3 +38,51 @@ input #button {
 #textarea{
     resize: none;
 }
+
+#button {
+    font-size: 90%;
+    color: #218f5f;
+    width: 15%;
+    text-align: center;
+}
+
+
+/* Popup container */
+.popups {
+    position: relative;
+    display: inline-block;
+}
+
+/* The actual popup (appears on top) */
+.popups .popuptexts {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+
+}
+
+/* Popup arrow */
+.popups .popuptexts::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popups .show {
+    visibility: visible;
+    animation: fadeIn 1s;
+    animation-duration: 5s;
+}
