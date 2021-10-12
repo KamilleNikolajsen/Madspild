@@ -130,7 +130,7 @@ footer {
 #button {
     font-size: 90%;
     color: #218f5f;
-    width: 40%;
+    width: 110%;
     text-align: center;
 }
 
@@ -169,14 +169,12 @@ footer li a {
 }
 
 #input{
-    margin-left: 10%;
 }
 
 /* Popup container */
 .popup {
     position: relative;
     display: inline-block;
-    margin-left: -10%;
 }
 
 /* The actual popup (appears on top) */
