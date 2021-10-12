@@ -213,7 +213,6 @@ footer li a {
 .popup .show {
     visibility: visible;
     animation: fadeIn 1s;
-    animation-duration: 5s;
 }
 
 /*
