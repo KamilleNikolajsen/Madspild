@@ -21,7 +21,7 @@ h1{
 h2 {
     font-family: 'Crimson Text', serif;
     font-size: 35px;
-    color: #218f5f;
+    color: rgb(20, 80, 40);
     text-align: center;
     margin-bottom: 4%;
 }
@@ -41,7 +41,7 @@ a {
 header {
     width: 100%;
     height: auto;
-    background-color: rgb(148, 226, 165);
+    background-color: rgb(160, 235, 175);
 }
 
 header img {
