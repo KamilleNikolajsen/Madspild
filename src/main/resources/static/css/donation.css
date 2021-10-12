@@ -11,8 +11,8 @@ table th {
 table td {
     width: 100px;
     padding: 5px;
-    text-align: center;
     font-size: 17px;
+    padding-left: 5%;
 }
 
 #donation_idears img {
@@ -34,6 +34,7 @@ table td {
 #donation_idears div{
     width: 30%;
     float: left;
+    margin-left: 2%;
 }
 
 #content h3 {
