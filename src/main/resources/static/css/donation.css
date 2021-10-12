@@ -27,6 +27,11 @@ table td {
     margin-bottom: 20px;
 }
 
+#donation_idears div{
+    width: 30%;
+    float: left;
+}
+
 #donation_idears p {
     display: inline-block;
     margin-left: 12%;
@@ -36,4 +41,8 @@ table td {
 #content h3 {
     margin-top: 8%;
     margin-bottom: 5%;
+}
+
+#doner p {
+    line-height: 0.8cm;
 }
