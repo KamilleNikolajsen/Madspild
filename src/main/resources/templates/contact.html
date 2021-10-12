@@ -30,8 +30,21 @@
                 <form action="/" name="message">
                     <textarea id="textarea" name="textarea" rows="6" cols="80"></textarea>
                     <br>
-                    <input type="submit" value="Send besked!" id="button">
+
+                    <div class="popups" onclick="fade()">
+                        <input type="button" value="Send" id="button">
+                        <span class="popuptexts" id="myPopups">Beskeden er sendt</span>
+                    </div>
+
+                    <script>
+                        // When the user clicks on <div>, open the popup
+                        function fade() {
+                            var popups = document.getElementById("myPopups");
+                            popups.classList.toggle("show");
+                        }
+                    </script>
                 </form>
+
             </div>
         </div>
         <footer th:insert="fragments/general :: footer"></footer>
