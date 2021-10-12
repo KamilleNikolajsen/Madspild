@@ -1,14 +1,14 @@
-table {
+#content table {
     width: 90%;
     margin: 50px auto;
 }
 
-table th {
+#content table th {
     color: #006e2c;
     font-size: 30px;
 }
 
-table td {
+#content table td {
     width: 100px;
     padding: 5px;
     font-size: 17px;
