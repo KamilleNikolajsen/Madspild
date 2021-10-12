@@ -7,10 +7,6 @@
     text-align: center;
 }
 
-#content a {
-    color: #218f5f;
-}
-
 #lastaddress {
     margin-top: 2%;
 }
@@ -41,7 +37,7 @@ input #button {
 
 #buttons {
     font-size: 90%;
-    color: #218f5f;
+    color: #006e2c;
     width: 140%;
     text-align: center;
 }

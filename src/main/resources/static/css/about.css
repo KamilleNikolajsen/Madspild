@@ -10,7 +10,6 @@
 }
 
 #mid h3 {
-    color: #218f5f;
     text-align: center;
 }
 
@@ -35,7 +34,6 @@
 #vi h3 {
     margin-top: 6%;
     text-align: center;
-    color: #218f5f;
 }
 
 #people{
@@ -58,5 +56,5 @@
 }
 
 #people th {
-    color: #218f5f;
+    color: #006e2c;
 }
