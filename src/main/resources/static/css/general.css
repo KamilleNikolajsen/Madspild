@@ -13,7 +13,7 @@
 h1{
     font-family: 'Crimson Text', serif;
     font-size: 45px;
-    color: rgb(20, 80, 40);
+    color: #006e2c;
     text-align: center;
     text-shadow: white 1px 1px;
 }
@@ -21,7 +21,7 @@ h1{
 h2 {
     font-family: 'Crimson Text', serif;
     font-size: 35px;
-    color: rgb(20, 80, 40);
+    color: #006e2c;
     text-align: center;
     margin-bottom: 4%;
 }
@@ -29,19 +29,19 @@ h2 {
 h3{
     font-family: 'Crimson Text', serif;
     font-size: 30px;
-    color: #218f5f;
+    color: #006e2c;
     text-align: center;
 }
 
 a {
-    color: #218f5f;
+    color: #006e2c;
 }
 
 /*---------------------------------------------------------- Header start --------------------------------------*/
 header {
     width: 100%;
     height: auto;
-    background-color: rgb(160, 235, 175);
+    background-color: #8be38b;
 }
 
 header img {
@@ -84,14 +84,14 @@ header li a{
     display: block;
     padding: 10px 0px;
     text-decoration: none;
-    color: rgb(20, 80, 40);
+    color: #006e2c;
     font-size: 25px;
 }
 
 header li a:hover{
     color: white;
     border-radius: 6px;
-    background-color: rgb(20, 80, 40);
+    background-color: #006e2c;
 }
 
 header input {
@@ -114,7 +114,7 @@ header input {
 
 /*---------------------------------------------------------- Footer start --------------------------------------*/
 footer {
-    background-color: rgb(20, 80, 40);
+    background-color: rgb(30, 95, 50);
     display: inline-block;
     width: 100%;
     color: rgb(196, 214, 203);
@@ -231,7 +231,7 @@ footer li a {
 
 footer a:hover {
     cursor: pointer;
-    color: rgb(59, 200, 155);
+    color: #8be38b;
 }
 
 #button:hover {
