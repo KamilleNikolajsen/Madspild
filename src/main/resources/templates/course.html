@@ -14,8 +14,10 @@
             <div id="indhold">
 
                 <div id="diashow" style="max-width: 500px">
-                    <img th:src="@{/images/Madspild123.png}" style="width: 100%" class="mySlides"/>
-                    <img th:src="@{/images/madspild.png}" style="width: 100%" class="mySlides"/>
+                    <img th:src="@{/images/zero.jpg}" style="width: 100%" class="mySlides"/>
+                    <img th:src="@{/images/Madspild.jpg}" style="width: 100%" class="mySlides"/>
+                    <img th:src="@{/images/madspild-netto.jpg}" style="width: 100%" class="mySlides"/>
+                    <img th:src="@{/images/beat-state.png}" style="width: 100%" class="mySlides"/>
                 </div>
                 <script>
                     var slideIndex = 0;
@@ -32,7 +34,7 @@
                             slideIndex = 1
                         }
                         x[slideIndex - 1].style.display = "block";
-                        setTimeout(carousel, 2000);
+                        setTimeout(carousel, 5000);
                     }
                 </script>
 
