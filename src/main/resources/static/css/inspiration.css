@@ -13,11 +13,15 @@
     margin-right: 3%;
 }
 
-#undgå_liste ul {
+#content div{
+    padding-left: 7%;
+}
+
+.undgå_liste ul {
     width: 100%;
 }
 
-#undgå_liste li {
+.undgå_liste li {
     padding: 1%;
 }
 
