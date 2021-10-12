@@ -20,7 +20,7 @@ h1{
 
 h2 {
     font-family: 'Crimson Text', serif;
-    font-size: 35px;
+    font-size: 45px;
     color: #006e2c;
     text-align: center;
     margin-bottom: 4%;
@@ -104,7 +104,7 @@ header input {
 /*---------------------------------------------------------- Content start --------------------------------------*/
 
 #content{
-    margin: 2% 10%;
+    margin: 4% 10%;
 }
 
 

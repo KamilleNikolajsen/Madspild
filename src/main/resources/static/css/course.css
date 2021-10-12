@@ -10,6 +10,8 @@
 
 #kurser {
     float: left;
+    width: 40%;
+    padding-left: 10%;
 }
 
 #kurser img {
