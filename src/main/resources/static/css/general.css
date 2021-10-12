@@ -127,7 +127,7 @@ footer {
 #address {
     width: 20%;
     float: right;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 #address p {
     font-size: 150%;
@@ -149,6 +149,16 @@ footer {
     float: left;
     width: 33%;
     padding-bottom: 1%;
+}
+
+#menu_div{
+    width: 50%;
+    margin: 0 auto;
+}
+
+#menu_div div{
+    float: left;
+    width: 40%;
 }
 
 footer li {
