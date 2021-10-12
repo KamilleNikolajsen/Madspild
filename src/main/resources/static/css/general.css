@@ -13,8 +13,9 @@
 h1{
     font-family: 'Crimson Text', serif;
     font-size: 45px;
-    color: #218f5f;
+    color: rgb(20, 80, 40);
     text-align: center;
+    text-shadow: white 1px 1px;
 }
 
 h2 {
@@ -40,7 +41,7 @@ a {
 header {
     width: 100%;
     height: auto;
-    background-color: rgba(79, 184, 107, 0.3);
+    background-color: rgb(148, 226, 165);
 }
 
 header img {
@@ -83,14 +84,14 @@ header li a{
     display: block;
     padding: 10px 0px;
     text-decoration: none;
-    color: #218f5f;
+    color: rgb(20, 80, 40);
     font-size: 25px;
 }
 
 header li a:hover{
     color: white;
     border-radius: 6px;
-    background-color: #218f5f;
+    background-color: rgb(20, 80, 40);
 }
 
 header input {
@@ -113,26 +114,28 @@ header input {
 
 /*---------------------------------------------------------- Footer start --------------------------------------*/
 footer {
-    background-color: rgba(79, 184, 107, 0.3);
+    background-color: rgb(20, 80, 40);
     display: inline-block;
     width: 100%;
+    color: rgb(196, 214, 203);
 }
 
 #address {
     width: 20%;
     float: right;
     margin-top: 5%;
-    color: #218f5f;
 }
 #address p {
     font-size: 150%;
-    color: #218f5f;
     text-align: center;
+}
+
+#address th {
+    color: rgb(196, 214, 203);
 }
 
 #button {
     font-size: 90%;
-    color: #218f5f;
     width: 110%;
     text-align: center;
 }
@@ -153,9 +156,9 @@ footer li {
 footer li a {
     font-size: 115%;
     text-decoration: none;
-    color: #218f5f;
     text-align: center;
     display: block;
+    color: rgb(196, 214, 203);
 }
 
 #subscribe {
@@ -167,7 +170,6 @@ footer li a {
 
 #subscribe p {
     font-size: 120%;
-    color: #218f5f;
     padding-bottom: 5px;
 }
 
@@ -230,7 +232,7 @@ footer li a {
 
 footer a:hover {
     cursor: pointer;
-    color: rgb(13, 79, 30);
+    color: rgb(59, 200, 155);
 }
 
 #button:hover {
