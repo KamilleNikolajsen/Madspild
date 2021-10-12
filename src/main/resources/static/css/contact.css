@@ -39,10 +39,10 @@ input #button {
     resize: none;
 }
 
-#button {
+#buttons {
     font-size: 90%;
     color: #218f5f;
-    width: 15%;
+    width: 140%;
     text-align: center;
 }
 
