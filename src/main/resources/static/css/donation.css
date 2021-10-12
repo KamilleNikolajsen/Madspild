@@ -16,9 +16,13 @@ table td {
 }
 
 #donation_idears img {
-    width: 20%;
-    margin-left: 10%;
-    margin-bottom: 20px;
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+#donation_idears p{
+    text-align: center;
 }
 
 #content {
@@ -30,12 +34,6 @@ table td {
 #donation_idears div{
     width: 30%;
     float: left;
-}
-
-#donation_idears p {
-    display: inline-block;
-    margin-left: 12%;
-    width: 20%;
 }
 
 #content h3 {
